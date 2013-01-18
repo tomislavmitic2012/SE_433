@@ -1,9 +1,8 @@
 package edu.depaul.se433;
 
+import static edu.depaul.se433.BinarySearch.*;
 import org.junit.*;
 import static org.junit.Assert.*;
-
-import static edu.depaul.se433.BinarySearch.*;
 
 /**
  *
@@ -39,7 +38,7 @@ public class BinarySearchTest {
     assertTrue(binarySearch(a, 3) == expResult1);
     assertTrue(binarySearch(a, null) == expResult2);
     // TODO review the generated test code and remove the default call to fail.
-    fail("Null Pointer has been encounter.");
+    fail("Null Pointer has been encounterd.");
   }
 
   /**
