@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BinarySearch" default="test1" basedir=".">
+  <description>
+    Ant Build File
+  </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="../"/>
+  <property name="test" location="../../test"/>
+  <property name="build" location="build"/>
+
+  <!-- Define the classpath which includes the junit.jar and the classes after compiling-->
+  <path id="junit.class.path">
+    <pathelement location="/home/tmitic/.netbeans/7.2/modules/ext/junit-4.10.jar" />
+    <pathelement location="${build}" />
+  </path>
+
+  <target name="compile" description="compile the source" >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}"
+	   destdir="${build}"
+	   debug="on"></javac>
+    <javac srcdir="${test}" destdir="${build}" debug="on">
+      <classpath refid="junit.class.path" />
+    </javac>
+  </target>
+
+  <target name="test1" depends="compile">
+    <!-- Run junit tests -->
+    <junit printsummary="yes" fork="yes" haltonfailure="yes">
+      <classpath refid="junit.class.path" />
+      <formatter type="plain"/>
+      <test name="edu.depaul.se433.BinarySearchTest"/>
+    </junit>
+  </target>
+</project>
