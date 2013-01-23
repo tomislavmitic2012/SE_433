@@ -7,5 +7,5 @@ binarySearch case 1
 ------------- ---------------- ---------------
 
 Testcase: testBinarySearch_1 took 0.002 sec
-Testcase: testBinarySearch_2 took 0.001 sec
+Testcase: testBinarySearch_2 took 0 sec
 Testcase: testBinarySearch2_1 took 0 sec
