@@ -70,7 +70,7 @@ public class BinarySearch {
 
     for(int i = 0; i < SIZE * 2; i++) {
       System.out.println("Found " + i + " at " +
-        binarySearch(a, new Integer(i)));
+        binarySearch2(a, new Integer(i)));
     }
   }
 }

@@ -6,7 +6,8 @@
   <!-- set global properties for this build -->
   <property name="src" location="../"/>
   <property name="test" location="../../test"/>
-  <property name="build" location="build"/>
+  <property name="build" location="./build"/>
+  <property name="build.jar" location="./build/jar"/>
 
   <!-- Define the classpath which includes the junit.jar and the classes after compiling-->
   <path id="junit.class.path">
@@ -19,7 +20,13 @@
     <pathelement location="${build}" />
   </path>
 
-  <target name="compile" description="compile the source" >
+  <target name="clean">
+    <delete dir="${build}" />
+    <delete file="./TEST-edu.depaul.se433.BinarySearchTest.txt" />
+    <mkdir dir="${build}" />
+  </target>
+
+  <target name="compile" depends="clean" description="compile the source" >
     <!-- Compile the java code from ${src} into ${build} -->
     <javac srcdir="${src}"
 	   destdir="${build}"
@@ -37,5 +44,20 @@
       <formatter type="plain"/>
       <test name="edu.depaul.se433.BinarySearchTest"/>
     </junit>
+  </target>
+
+  <target name="jar" depends="compile">
+    <mkdir dir="${build.jar}"/>
+    <jar destfile="${build.jar}/BinarySearch.jar"
+         basedir="${build}">
+      <manifest>
+        <attribute name="Main-Class" value="edu.depaul.se433.BinarySearch"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="main" depends="clean, compile, test1, jar">
+    <description>Main target</description>
+    <java jar="${build.jar}/BinarySearch.jar" fork="true"></java>
   </target>
 </project>
