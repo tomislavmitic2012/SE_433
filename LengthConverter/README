@@ -1,0 +1,53 @@
+LengthConverter Ant Builder Instructions:
+
+To run the ant build please cd into the following directory:
+
+  ./LengthConverter/src/buildscript
+
+1. To clean the build please run the following command:
+
+  $> ant clean
+
+2. To compile the build please run the following command:
+
+  $> ant compile
+
+3. To run the test suites please run the following command:
+
+  $> ant test
+
+Test results are saved into a file called: TEST-lengthconvertertestsuite.LengthConverterTestSuite.txt
+
+The following command can be used to view the test input continuously when working with the build:
+
+  $> tail -F ./TEST-lengthconvertertestsuite.LengthConverterTestSuite.txt
+
+4. To create a java jar executable type the following command:
+
+  $> ant jar
+
+To run the executable jar, please cd input the following directory: ./build/jar
+
+The program can be run with command line arguments or in multiple input mode.
+
+To run the program with command line arguments:
+
+  $> java jar Driver.jar <arg 1> <arg 2>
+
+To run the program in multiple input mode type the following command:
+
+  $> java jar Driver.jar
+
+Once finished executing the program please use the following command to cd back to
+the main ant build directory:
+
+  $> cd ../..
+
+5. To run the entire ant build suite including JUnits and the program in command line argument
+mode; please type the following command:
+
+  $> ant all
+
+6. To run the program in multiple input mode through ant please type the following command:
+
+  $> ant run-multiple-inputs
