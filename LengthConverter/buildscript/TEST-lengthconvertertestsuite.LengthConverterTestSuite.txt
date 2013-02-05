@@ -1,0 +1,9 @@
+Testsuite: lengthconvertertestsuite.LengthConverterTestSuite
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.023 sec
+
+Testcase: LengthConverterTest took 0.003 sec
+Testcase: LengthConverterTest[0] took 0 sec
+Testcase: LengthConverterTest[1] took 0 sec
+Testcase: LengthConverterTest[2] took 0 sec
+Testcase: LengthConverterTest[3] took 0 sec
+Testcase: LengthConverterTest[4] took 0 sec

@@ -4,19 +4,19 @@
     Ant LengthConverter Build File
   </description>
   <!-- set global properties for this build -->
-  <property name="src" location="../"/>
-  <property name="test" location="../../test"/>
+  <property name="src" location="../src"/>
+  <property name="test" location="../test"/>
   <property name="build" location="./build"/>
   <property name="build.jar" location="./build/jar"/>
 
   <!-- Define the classpath which includes the junit.jar and the classes after compiling-->
   <path id="junit.class.path">
-    <pathelement location="../../junit/junit-4.11.jar" />
+    <pathelement location="../junit/junit-4.11.jar" />
     <pathelement location="${build}" />
   </path>
 
   <path id="hamcrest">
-    <pathelement location="../../junit/hamcrest-all-1.3.jar" />
+    <pathelement location="../junit/hamcrest-all-1.3.jar" />
     <pathelement location="${build}" />
   </path>
 
