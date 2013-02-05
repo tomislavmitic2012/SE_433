@@ -2,7 +2,7 @@ LengthConverter Ant Builder Instructions:
 
 To run the ant build please cd into the following directory:
 
-  ./LengthConverter/src/buildscript
+  ./LengthConverter/buildscript
 
 1. To clean the build please run the following command:
 
