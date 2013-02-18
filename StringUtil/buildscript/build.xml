@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="StringUtil" default="test" basedir=".">
+  <description>
+    Ant StringUtil Build Script
+  </description>
+  <!-- set the global properties for this build -->
+  <property name="src" location="../jars" />
+  <property name="test" location="../test" />
+  <property name="build" location="./build" />
+
+  <!-- Define the classpath which includes the junit jar and the classes after compiling -->
+  <path id="junit.class.path">
+    <pathelement location="../junit/junit-4.11.jar" />
+    <pathelement location="${build}" />
+  </path>
+
+  <path id="hamcrest">
+    <pathelement location="../junit/hamcrest-all-1.3.jar" />
+    <pathelement location="${build}" />
+  </path>
+
+  <path id="StringUtil">
+    <pathelement location="../jars/StringUtil.jar" />
+    <pathelement location="${build}" />
+  </path>
+
+  <target name="clean">
+    <delete dir="${build}" />
+    <mkdir dir="${build}" />
+  </target>
+
+  <target name="compile" depends="clean" description="compile the test suites">
+    <javac srcdir="${test}" destdir="${build}" debug="on">
+      <classpath refid="junit.class.path" />
+      <classpath refid="hamcrest" />
+      <classpath refid="StringUtil" />
+    </javac>
+  </target>
+
+  <target name="test" depends="compile">
+    <junit printsummary="yes" fork="yes" haltonfailure="yes">
+      <classpath refid="junit.class.path" />
+      <classpath refid="hamcrest" />
+      <classpath refid="StringUtil" />
+      <formatter type="plain"/>
+      <test name="edu.depaul.se433.StringUtilTestSuite" />
+    </junit>
+  </target>
+</project>
