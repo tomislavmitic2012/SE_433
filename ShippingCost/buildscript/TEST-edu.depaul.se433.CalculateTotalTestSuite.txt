@@ -1,5 +1,5 @@
 Testsuite: edu.depaul.se433.CalculateTotalTestSuite
-Tests run: 34, Failures: 17, Errors: 0, Time elapsed: 0.098 sec
+Tests run: 34, Failures: 17, Errors: 0, Time elapsed: 0.092 sec
 
 Testcase: calculateTotalWeakNormalTest[0] took 0.004 sec
 	FAILED
@@ -14,8 +14,8 @@ junit.framework.AssertionFailedError: expected:<75.0> but was:<100.0>
 	at edu.depaul.se433.CalculateTotalWeakNormalTest.calculateTotalWeakNormalTest(CalculateTotalWeakNormalTest.java:44)
 
 Testcase: calculateTotalWeakRobustnessTest[0] took 0 sec
-Testcase: calculateTotalWeakRobustnessTest[1] took 0.001 sec
-Testcase: calculateTotalWeakRobustnessTest[2] took 0 sec
+Testcase: calculateTotalWeakRobustnessTest[1] took 0 sec
+Testcase: calculateTotalWeakRobustnessTest[2] took 0.001 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -23,7 +23,7 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalWeakRobustnessTest.calculateTotalWeakRobustnessTest(CalculateTotalWeakRobustnessTest.java:56)
 
-Testcase: calculateTotalWeakRobustnessTest[3] took 0 sec
+Testcase: calculateTotalWeakRobustnessTest[3] took 0.001 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -31,13 +31,13 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalWeakRobustnessTest.calculateTotalWeakRobustnessTest(CalculateTotalWeakRobustnessTest.java:56)
 
-Testcase: calculateTotalStrongNormalTest[0] took 0.001 sec
+Testcase: calculateTotalStrongNormalTest[0] took 0 sec
 	FAILED
 expected:<36.5> but was:<37.099998474121094>
 junit.framework.AssertionFailedError: expected:<36.5> but was:<37.099998474121094>
 	at edu.depaul.se433.CalculateTotalStrongNormalTest.calculateTotalStrongNormalTest(CalculateTotalStrongNormalTest.java:50)
 
-Testcase: calculateTotalStrongNormalTest[1] took 0.001 sec
+Testcase: calculateTotalStrongNormalTest[1] took 0 sec
 	FAILED
 expected:<51.5> but was:<53.0>
 junit.framework.AssertionFailedError: expected:<51.5> but was:<53.0>
@@ -52,22 +52,22 @@ expected:<79.5> but was:<106.0>
 junit.framework.AssertionFailedError: expected:<79.5> but was:<106.0>
 	at edu.depaul.se433.CalculateTotalStrongNormalTest.calculateTotalStrongNormalTest(CalculateTotalStrongNormalTest.java:50)
 
-Testcase: calculateTotalStrongNormalTest[6] took 0 sec
+Testcase: calculateTotalStrongNormalTest[6] took 0.001 sec
 Testcase: calculateTotalStrongNormalTest[7] took 0.001 sec
 	FAILED
 expected:<75.0> but was:<100.0>
 junit.framework.AssertionFailedError: expected:<75.0> but was:<100.0>
 	at edu.depaul.se433.CalculateTotalStrongNormalTest.calculateTotalStrongNormalTest(CalculateTotalStrongNormalTest.java:50)
 
-Testcase: calculateTotalStrongRobustnessTest[0] took 0.001 sec
-Testcase: calculateTotalStrongRobustnessTest[1] took 0.001 sec
-Testcase: calculateTotalStrongRobustnessTest[2] took 0 sec
+Testcase: calculateTotalStrongRobustnessTest[0] took 0 sec
+Testcase: calculateTotalStrongRobustnessTest[1] took 0 sec
+Testcase: calculateTotalStrongRobustnessTest[2] took 0.001 sec
 Testcase: calculateTotalStrongRobustnessTest[3] took 0 sec
 Testcase: calculateTotalStrongRobustnessTest[4] took 0 sec
 Testcase: calculateTotalStrongRobustnessTest[5] took 0 sec
-Testcase: calculateTotalStrongRobustnessTest[6] took 0.001 sec
-Testcase: calculateTotalStrongRobustnessTest[7] took 0 sec
-Testcase: calculateTotalStrongRobustnessTest[8] took 0 sec
+Testcase: calculateTotalStrongRobustnessTest[6] took 0 sec
+Testcase: calculateTotalStrongRobustnessTest[7] took 0.001 sec
+Testcase: calculateTotalStrongRobustnessTest[8] took 0.001 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -83,7 +83,7 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalStrongRobustnessTest.calculateTotalStrongRobustnessTest(CalculateTotalStrongRobustnessTest.java:67)
 
-Testcase: calculateTotalStrongRobustnessTest[10] took 0.001 sec
+Testcase: calculateTotalStrongRobustnessTest[10] took 0 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -91,7 +91,7 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalStrongRobustnessTest.calculateTotalStrongRobustnessTest(CalculateTotalStrongRobustnessTest.java:67)
 
-Testcase: calculateTotalStrongRobustnessTest[11] took 0.001 sec
+Testcase: calculateTotalStrongRobustnessTest[11] took 0 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -99,7 +99,7 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalStrongRobustnessTest.calculateTotalStrongRobustnessTest(CalculateTotalStrongRobustnessTest.java:67)
 
-Testcase: calculateTotalStrongRobustnessTest[12] took 0.001 sec
+Testcase: calculateTotalStrongRobustnessTest[12] took 0 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -107,7 +107,7 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalStrongRobustnessTest.calculateTotalStrongRobustnessTest(CalculateTotalStrongRobustnessTest.java:67)
 
-Testcase: calculateTotalStrongRobustnessTest[13] took 0.002 sec
+Testcase: calculateTotalStrongRobustnessTest[13] took 0 sec
 	FAILED
 Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
@@ -131,8 +131,8 @@ junit.framework.AssertionFailedError: Orders.calculateTotal Failure Detected:
 Expected: Incorrect state destination.
 	at edu.depaul.se433.CalculateTotalStrongRobustnessTest.calculateTotalStrongRobustnessTest(CalculateTotalStrongRobustnessTest.java:67)
 
-Testcase: calculateTotalSpecialValueTest[0] took 0 sec
-Testcase: calculateTotalSpecialValueTest[1] took 0.001 sec
+Testcase: calculateTotalSpecialValueTest[0] took 0.001 sec
+Testcase: calculateTotalSpecialValueTest[1] took 0 sec
 Testcase: calculateTotalSpecialValueTest[2] took 0 sec
 Testcase: calculateTotalSpecialValueTest[3] took 0 sec
 	FAILED
