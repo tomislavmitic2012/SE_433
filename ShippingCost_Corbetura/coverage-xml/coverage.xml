@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8461538461538461" branch-rate="0.95" lines-covered="11" lines-valid="13" branches-covered="19" branches-valid="20" complexity="12.0" version="1.9.4.1" timestamp="1362456815093">
+	<sources>
+		<source>/home/tmitic/Depaul/SE_433/Workbench/ShippingCost_Corbetura/src</source>
+	</sources>
+	<packages>
+		<package name="edu.depaul.se433" line-rate="0.8461538461538461" branch-rate="0.95" complexity="12.0">
+			<classes>
+				<class name="edu.depaul.se433.Orders" filename="edu/depaul/se433/Orders.java" line-rate="0.8333333333333334" branch-rate="0.95" complexity="12.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="7" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="calculateTotal" signature="(FLedu/depaul/se433/Orders$ShippingMethod;Ljava/lang/String;)F" line-rate="1.0" branch-rate="0.95">
+							<lines>
+								<line number="12" hits="46" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="13" hits="10" branch="false"/>
+								<line number="15" hits="36" branch="false"/>
+								<line number="16" hits="36" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="17" hits="10" branch="false"/>
+								<line number="18" hits="26" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="19" hits="17" branch="false"/>
+								<line number="21" hits="36" branch="true" condition-coverage="91% (11/12)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+										<condition number="3" type="jump" coverage="100%"/>
+										<condition number="4" type="jump" coverage="100%"/>
+										<condition number="5" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="27" hits="15" branch="false"/>
+								<line number="29" hits="36" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="12" hits="46" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="10" branch="false"/>
+						<line number="15" hits="36" branch="false"/>
+						<line number="16" hits="36" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="17" hits="10" branch="false"/>
+						<line number="18" hits="26" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="19" hits="17" branch="false"/>
+						<line number="21" hits="36" branch="true" condition-coverage="91% (11/12)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+								<condition number="3" type="jump" coverage="100%"/>
+								<condition number="4" type="jump" coverage="100%"/>
+								<condition number="5" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="27" hits="15" branch="false"/>
+						<line number="29" hits="36" branch="false"/>
+					</lines>
+				</class>
+				<class name="edu.depaul.se433.Orders$ShippingMethod" filename="edu/depaul/se433/Orders.java" line-rate="1.0" branch-rate="1.0" complexity="12.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="9" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Ledu/depaul/se433/Orders$ShippingMethod;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Ledu/depaul/se433/Orders$ShippingMethod;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

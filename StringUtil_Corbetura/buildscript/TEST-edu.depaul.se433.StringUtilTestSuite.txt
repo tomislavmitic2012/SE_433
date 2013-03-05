@@ -1,0 +1,67 @@
+Testsuite: edu.depaul.se433.StringUtilTestSuite
+Tests run: 19, Failures: 9, Errors: 0, Time elapsed: 0.09 sec
+
+Testcase: pluralizeTest[0] took 0.013 sec
+Testcase: pluralizeTest[1] took 0.005 sec
+	FAILED
+expected:<cats[]> but was:<cats[es]>
+junit.framework.AssertionFailedError: expected:<cats[]> but was:<cats[es]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[2] took 0.001 sec
+	FAILED
+expected:<from[]> but was:<from[s]>
+junit.framework.AssertionFailedError: expected:<from[]> but was:<from[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[3] took 0.001 sec
+	FAILED
+expected:<good[]> but was:<good[s]>
+junit.framework.AssertionFailedError: expected:<good[]> but was:<good[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[4] took 0.002 sec
+	FAILED
+expected:<literall[y]> but was:<literall[ies]>
+junit.framework.AssertionFailedError: expected:<literall[y]> but was:<literall[ies]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[5] took 0.002 sec
+	FAILED
+expected:<me[]> but was:<me[s]>
+junit.framework.AssertionFailedError: expected:<me[]> but was:<me[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[6] took 0.002 sec
+	FAILED
+expected:<and[]> but was:<and[s]>
+junit.framework.AssertionFailedError: expected:<and[]> but was:<and[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[7] took 0.002 sec
+	FAILED
+expected:<Tom[]> but was:<Tom[s]>
+junit.framework.AssertionFailedError: expected:<Tom[]> but was:<Tom[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[8] took 0.002 sec
+	FAILED
+expected:<Mitic[]> but was:<Mitic[s]>
+junit.framework.AssertionFailedError: expected:<Mitic[]> but was:<Mitic[s]>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[9] took 0.001 sec
+Testcase: pluralizeTest[10] took 0.001 sec
+Testcase: pluralizeTest[11] took 0.002 sec
+	FAILED
+expected:<ba[y]s> but was:<ba[ie]s>
+junit.framework.AssertionFailedError: expected:<ba[y]s> but was:<ba[ie]s>
+	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
+
+Testcase: pluralizeTest[12] took 0.002 sec
+Testcase: pluralizeTest[13] took 0.001 sec
+Testcase: pluralizeStringRobustnessTest[0] took 0 sec
+Testcase: pluralizeStringRobustnessTest[1] took 0 sec
+Testcase: pluralizeStringRobustnessTest[2] took 0 sec
+Testcase: pluralizeStringRobustnessTest[3] took 0 sec
+Testcase: pluralizeStringRobustnessTest[4] took 0 sec

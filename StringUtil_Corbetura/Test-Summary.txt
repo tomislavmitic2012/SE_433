@@ -1,0 +1,22 @@
+Only 85% statement coverage can be attained wince we can not instantiate the StringUtil class because
+pluralize is a static method as well as due to the fact that non of the statements in the main method
+will ever be executed by the unit tests.
+
+Added the following tests to StrintUtilTest.java to attain a 71% branch coverage:
+
+      {"equipment", "equipment"},
+      {"children", "child"},
+      {"bays", "bay"},
+      {"abbies", "abby"},
+      {null, null}
+
+However due to the fact the line 41 in StringUtil.java should be changed from:
+
+  (c2 != 'a' || c2 != 'e' || c2 == 'i' || c2 == 'o' || c2 == 'u'))
+
+to the following:
+
+  (c2 != 'a' && c2 != 'e' && c2 == 'i' && c2 == 'o' && c2 == 'u'))
+
+and that the main method can't be ever executed by the unit tests no greater branch coverage can be
+attained without fixing the code.

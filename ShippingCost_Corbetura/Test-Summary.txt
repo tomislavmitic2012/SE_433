@@ -1,0 +1,20 @@
+I added the following cases om the CalculateSpecialValuesTest.java to attain a 95% total
+branch coverage:
+
+      {79.50f, new Object[]{75.00f, ShippingMethod.Standard, "CA"}},
+      {79.50f, new Object[]{75.00f, ShippingMethod.NextDay, "California"}},
+      {79.50f, new Object[]{75.00f, ShippingMethod.Standard, "NY"}},
+      {79.50f, new Object[]{75.00f, ShippingMethod.NextDay, "New York"}},
+      {79.50f, new Object[]{75.00f, ShippingMethod.Standard, "IL"}},
+      {75.00f, new Object[]{75.00f, ShippingMethod.NextDay, "Illinois"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.Standard, "CA"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.NextDay, "California"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.Standard, "NY"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.NextDay, "New York"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.Standard, "IL"}},
+      {36.50f, new Object[]{25.00f, ShippingMethod.NextDay, "Illinois"}}
+
+Because Orders.java line 22 Illinois is misspelled as "Illinios" I cannot reach 100% branch coverage
+since any test with Illinois will always fail.
+
+100% statement coverage will never be attained b/c we can't instantiate the Orders class.
