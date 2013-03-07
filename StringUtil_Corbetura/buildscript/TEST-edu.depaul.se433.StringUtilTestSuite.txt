@@ -1,5 +1,5 @@
 Testsuite: edu.depaul.se433.StringUtilTestSuite
-Tests run: 19, Failures: 9, Errors: 0, Time elapsed: 0.09 sec
+Tests run: 19, Failures: 9, Errors: 0, Time elapsed: 0.097 sec
 
 Testcase: pluralizeTest[0] took 0.013 sec
 Testcase: pluralizeTest[1] took 0.005 sec
@@ -8,13 +8,13 @@ expected:<cats[]> but was:<cats[es]>
 junit.framework.AssertionFailedError: expected:<cats[]> but was:<cats[es]>
 	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
 
-Testcase: pluralizeTest[2] took 0.001 sec
+Testcase: pluralizeTest[2] took 0.002 sec
 	FAILED
 expected:<from[]> but was:<from[s]>
 junit.framework.AssertionFailedError: expected:<from[]> but was:<from[s]>
 	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
 
-Testcase: pluralizeTest[3] took 0.001 sec
+Testcase: pluralizeTest[3] took 0.002 sec
 	FAILED
 expected:<good[]> but was:<good[s]>
 junit.framework.AssertionFailedError: expected:<good[]> but was:<good[s]>
@@ -38,7 +38,7 @@ expected:<and[]> but was:<and[s]>
 junit.framework.AssertionFailedError: expected:<and[]> but was:<and[s]>
 	at edu.depaul.se433.StringUtilTest.pluralizeTest(StringUtilTest.java:51)
 
-Testcase: pluralizeTest[7] took 0.002 sec
+Testcase: pluralizeTest[7] took 0.003 sec
 	FAILED
 expected:<Tom[]> but was:<Tom[s]>
 junit.framework.AssertionFailedError: expected:<Tom[]> but was:<Tom[s]>
@@ -60,8 +60,8 @@ junit.framework.AssertionFailedError: expected:<ba[y]s> but was:<ba[ie]s>
 
 Testcase: pluralizeTest[12] took 0.002 sec
 Testcase: pluralizeTest[13] took 0.001 sec
-Testcase: pluralizeStringRobustnessTest[0] took 0 sec
-Testcase: pluralizeStringRobustnessTest[1] took 0 sec
+Testcase: pluralizeStringRobustnessTest[0] took 0.001 sec
+Testcase: pluralizeStringRobustnessTest[1] took 0.001 sec
 Testcase: pluralizeStringRobustnessTest[2] took 0 sec
 Testcase: pluralizeStringRobustnessTest[3] took 0 sec
-Testcase: pluralizeStringRobustnessTest[4] took 0 sec
+Testcase: pluralizeStringRobustnessTest[4] took 0.001 sec

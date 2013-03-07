@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.8529411764705882" branch-rate="0.71875" lines-covered="29" lines-valid="34" branches-covered="23" branches-valid="32" complexity="12.0" version="1.9.4.1" timestamp="1362456875236">
+<coverage line-rate="0.8529411764705882" branch-rate="0.71875" lines-covered="29" lines-valid="34" branches-covered="23" branches-valid="32" complexity="12.0" version="1.9.4.1" timestamp="1362639051509">
 	<sources>
 		<source>/home/tmitic/Depaul/SE_433/Workbench/StringUtil_Corbetura/src</source>
 	</sources>
