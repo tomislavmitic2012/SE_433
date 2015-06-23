@@ -21,7 +21,7 @@ public class Driver {
       System.out.println(String.format("The triangle is: %s", tri.classify()));
     } catch(Exception e) {
       log.log(Level.INFO, String.format(
-              "An exception has ocured: %s", e.toString()));
+              "An exception has occurred: %s", e.toString()));
     }
   }
 }
